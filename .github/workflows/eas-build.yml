@@ -25,4 +25,4 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build on EAS for staging
-        run: npx eas-cli build --profile staging --platform android --non-interactive --no-wait
+        run: npx eas build --profile staging --platform android --non-interactive --no-wait
